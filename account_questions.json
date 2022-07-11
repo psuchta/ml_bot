@@ -1,0 +1,166 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "is_url_question":false,
+         "patterns":[
+            "Hello",
+            "How are you?",
+            "Hi there",
+            "Hi",
+            "Whats up"
+         ],
+         "responses":[
+            "Hello nice to meet you!",
+            "I am great! How are you?",
+            "Hi",
+            "Greetings!",
+            "How do you do?"
+         ]
+      },
+      {
+         "tag":"question",
+         "is_url_question":false,
+         "patterns":[
+            "I have a question",
+            "Can you help me?",
+            "I am in trouble"
+         ],
+         "responses":[
+            "How can I help you?",
+            "What is the matter?",
+            "Could you explain what is the problem?"
+         ]
+      },
+      {
+         "tag":"registration",
+         "is_url_question":true,
+         "fill_with_words":[
+            "register",
+            "registration",
+            "Signup",
+            "Sign-up",
+            "create account",
+            "creating account"
+         ],
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Here is help page for registration process: https://pomoc.olx.pl/hc/pl/articles/210631229-Rejestracja-w-OLX"
+         ]
+      },
+      {
+         "tag":"verification",
+         "is_url_question":true,
+         "fill_with_words":[
+            "verify",
+            "verification",
+            "veryfing"
+         ],
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Check this page: https://pomoc.olx.pl/hc/pl/articles/211658665-Weryfikacja-konta-OLX"
+         ]
+      },
+      {
+         "tag":"account_email_change",
+         "is_url_question":true,
+         "fill_with_words":[
+            "change e-mail",
+            "change email",
+            "change contact info"
+         ],
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Check this page: https://pomoc.olx.pl/hc/pl/articles/115002229429-Zmiana-e-mail-danych-kontaktowych"
+         ]
+      },
+      {
+         "tag":"account_delete",
+         "is_url_question":true,
+         "fill_with_words":[
+            "account delete",
+            "user delete"
+         ],
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Check this page: https://pomoc.olx.pl/hc/pl/articles/4407453282066-Jak-usunąć-konto-OLX-"
+         ]
+      },
+      {
+         "tag":"blocked_account",
+         "is_url_question":true,
+         "fill_with_words":[
+            "blocked account",
+            "account block"
+         ],
+         "patterns":[
+            "My account was blocked",
+            "Can you unblock my account ?"
+         ],
+         "responses":[
+            "https://pomoc.olx.pl/hc/pl/articles/211658645-Komunikat-o-zablokowanym-koncie"
+         ]
+      },
+      {
+         "tag":"log_in_failure",
+         "is_url_question":false,
+         "patterns":[
+            "I can't log in into my account",
+            "My login doesn't work"
+         ],
+         "responses":[
+            "Check this page: https://pomoc.olx.pl/hc/pl/articles/4407447566866-Nie-mogę-się-zalogować"
+         ]
+      },
+      {
+         "tag":"scam_info",
+         "is_url_question":false,
+         "patterns":[
+            "How not to be scammed",
+            "I am afraid that I will be scammed",
+            "How protect myself",
+            " I think I found fake ad"
+         ],
+         "responses":[
+            "Check this page: https://pomoc.olx.pl/hc/pl/categories/201278285-Bezpieczeństwo"
+         ]
+      },
+      {
+         "tag":"police",
+         "is_url_question":false,
+         "patterns":[
+            "I was probably scammed",
+            "Thief took all of my money",
+            "My friend was scammed"
+         ],
+         "responses":[
+            "Please contact the Police",
+            " You should conisder contacting the Polcie"
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "is_url_question":false,
+         "patterns":[
+            "bye",
+            "g2g",
+            "see ya",
+            "adios",
+            "cya"
+         ],
+         "responses":[
+            "It was nice speaking to you",
+            "See you later",
+            "Speak soon!"
+         ]
+      }
+   ]
+}

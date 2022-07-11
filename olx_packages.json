@@ -1,0 +1,63 @@
+{
+   "intents":[
+      {
+         "tag":"ship_price",
+         "is_url_question":false,
+         "patterns":[
+            "How much does olx shipping cost",
+            "Where Can I find shipping prices"
+         ],
+         "responses":[
+            "Here you can find shipping prices: https://pomoc.olx.pl/hc/pl/articles/4401698665628-Ile-kosztuje-Przesy%C5%82ka-OLX-"
+         ]
+      },
+      {
+         "tag":"ship_instruction",
+         "is_url_question":false,
+         "patterns":[
+            "How can I sell item with OLX shipping",
+            "Where Can I find shipping instructions",
+            "Shipping info"
+         ],
+         "responses":[
+            "You can find instructions here: https://pomoc.olx.pl/hc/pl/articles/360012357179-Sprzedaj-z-Przesy%C5%82k%C4%85-OLX-instrukcja-krok-po-kroku"
+         ]
+      },
+      {
+         "tag":"ship_label",
+         "is_url_question":false,
+         "patterns":[
+            "How generate shipping label",
+            "ship label",
+            "Where can I generate shipping label"
+         ],
+         "responses":[
+            "You can find instructions here: https://pomoc.olx.pl/hc/pl/articles/360021905239-Jak-wygenerowa%C4%87-etykiet%C4%99-dla-Przesy%C5%82ki-OLX-"
+         ]
+      },
+      {
+         "tag":"ship_time",
+         "is_url_question":false,
+         "patterns":[
+            "How long does it take for package to be shipped",
+            "How Long Does Shipping Take",
+            "When can I expect delivery",
+            "What is shipping time"
+         ],
+         "responses":[
+            "You can find the delivery time here: https://pomoc.olx.pl/hc/pl/articles/360012356279-Terminy-zwi%C4%85zane-z-wysy%C5%82k%C4%85-odbiorem-paczek-oraz-reklamacj%C4%85"
+         ]
+      },
+      {
+         "tag":"ship_protection_plan",
+         "is_url_question":false,
+         "patterns":[
+            "What is shipment protection plan",
+            "Can you explain shipment protection plan"
+         ],
+         "responses":[
+            "In simple words we protect you in case your shipment was empty or order is not the same as it was described by the seller. \nRemember you have to notify us about shipment fraud within 24 h after the packed was delivered to you"
+         ]
+      }
+   ]
+}
