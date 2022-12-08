@@ -1,2 +1,2 @@
 # ml_bot
-Simple Customer Support Chatbot In Python Developed Using Deep Learning
+Simple Customer Support Chatbot Developed In Python Using Deep Learning
